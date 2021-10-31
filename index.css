@@ -1,0 +1,96 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+.header {
+  display: flex;
+  background-color:  rgb(253, 229, 180);
+  color: rgb(3, 1, 7);
+  height: 4rem;
+  text-align: center;
+}
+#myTopnav{
+  position: relative;
+    padding-left: 92rem;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #110606;
+    text-align: center;
+    border-radius: 2rem;
+    text-decoration: rgb(127, 255, 0);
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    justify-content: right;
+    background-color: rgb(128, 238, 77);
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+body {
+  background-color:  rgb(253, 229, 180);
+  margin: 0;
+   }
+
+   /* Header Image*/
+   .header img{
+     height: 4rem;
+     width: 100rem;
+   }
+
+/*Main Container*/
+   .container fieldset{
+    background-color: rgb(158, 211, 134);
+    height: 10rem;
+    justify-self: center;
+    font-size: xx-large
+  }
+  .container fieldset input{
+    height: 2rem;
+    width: 15rem;
+    font-size: 2rem;
+  }
+  .container fieldset button{
+    height: 2rem;
+    width: auto;
+    background-color: rgb(171, 224, 202);
+    justify-self: center;
+    align-items: center;
+  }
+.container{
+margin-left: 30rem;
+  width: 20rem;
+  height: 35rem;
+}
+   /*table css*/
+   .showdata {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .showdata td, .showdata th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .showdata tr:nth-child(even){background-color: #f2f2f2;}
+  .showdata tr:hover {background-color: #ddd;}
+  .showdata th {
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  

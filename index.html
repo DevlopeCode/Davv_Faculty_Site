@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MARK_1</title>
+</head>
+<body>
+    <div class="header">
+       <img src=" https://www.dauniv.ac.in/public/frontassets/image/davv-log222.png ">
+      </div>
+      <br>
+
+     <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <br>
+      <div style="background-image: url('https://www.clipartmax.com/png/full/218-2180117_davv-indore-university-date-sheet-time-table-2018-devi-ahilya-vishwavidyalaya-logo.png');background-repeat: repeat-y; ">
+     <div class="container">
+        <fieldset class="Input_Box">
+            <label for="Class_Name"> Enter Class Name</label>
+            <input type="text" id="Class_Name"><br>
+            <label for="Subject_Enter">Enter All Subject</label>
+            <input type="text" id="Subject_List"><i class="fas fa-plus" id="jaiso" onclick="Get_ClassData()"></i>
+            <br>
+       <button type="submit" onclick="Set_CLassData()">Submit</button>
+       <button type="submit" onclick="window.open('./index2.html')">Enter_student_Data</button>
+        </fieldset>
+        <label for="warn" id="warn" style="color: red;"></label>
+    </div>
+    <div >
+      <table  class="showdata">
+        <tr>
+        <th>Class_Name</th>
+        <th>Subject</th>
+        <th>NO Of Students</th>
+      </tr>
+      </table>
+    </div>
+  </div>
+
+<script src="index.js"></script>
+</body>
+</html>

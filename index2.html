@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARK@2</title>
+    <link rel="stylesheet" href="index2.css">   
+</head>
+<body>
+    <div class="Class_DropDown">
+        <label for="Class">Select the Class</label>
+        <select id="Class_DropDown">
+        </select>
+    </div>
+    <div class="Get_Student">
+        <div class="container">
+            <fieldset class="Input_Box">
+                <label for="Student_Name"> Enter Student Name</label>
+                <input type="text" id="Student_Name">
+                <label for="Roll_Number">Enter Roll Number</label>
+                <input type="text" id="Roll_Number">
+                <button type="submit" onclick="Set_Marksheet()">Submit</button>
+            </fieldset>
+        </div>
+    </div>
+    <fieldset>
+    <div class="Show_AndGet">
+        <table class="Get_marks">
+            <tr>
+                <th>S.no</th>
+                <th>Subject</th>
+                <th>Obtained_marks</th>
+                <th>Total_marks</th>
+            </tr>
+            <br>
+           
+        </table>
+        <button type="submit" onclick="set_marks()"> Set_marks</button>
+    </div>
+  </fieldset>
+  <fieldset>
+  <div class="showmarksheet">
+
+  </div>
+</fieldset>
+  <script src="index2.js"></script>
+</body>
+</html>
