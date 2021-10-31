@@ -79,7 +79,7 @@ const PrintedMarksheet = () =>{
             Remark =' Fail';
           }
           document.querySelector('.showmarksheet').innerHTML += `<fieldset>
-          <center><h1>Devi Ahilya VishwaVidhalay<h1></center>
+          <center><h1>Devi Ahilya Vishwavidyalaya Indore<h1></center>
           <p>Class Name : ${obj.Class_set}</p>
           <p> Student Name :${x.Name}</p>
           <p> Roll No. :${x.Roll_no}</p>
